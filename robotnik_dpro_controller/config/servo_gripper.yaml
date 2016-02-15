@@ -1,0 +1,13 @@
+servos: 
+
+- id: 11
+  joint_name: jg2
+  model_name: L42
+  name: L42
+  model_number: 00006
+  cpr: 303750 
+  gear_reduction: 300.0
+  max_vel_value: 9000.0
+  max_vel_rads: 2.9994
+  min_rad: -1.57
+  max_rad: 1.57

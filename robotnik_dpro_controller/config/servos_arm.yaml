@@ -1,0 +1,98 @@
+servos: 
+
+- id: 1 
+  joint_name: j1
+  model_name: H54-200-S500-R
+  name: H54
+  model_number: 00001
+  cpr: 501900 
+  gear_reduction: 500.0
+  max_vel_value: 8300.0
+  max_vel_rads: 1.460844
+  min_rad: -1.55
+  max_rad: 1.55
+
+- id: 5
+  joint_name: j2
+  model_name: H54-200-S500-R
+  name: H54
+  model_number: 00002
+  cpr: 501900
+  gear_reduction: 500.0
+  max_vel_value: 8300.0
+  max_vel_rads: 1.460844
+  min_rad: -1.95
+  max_rad: 1.55
+  
+- id: 6
+  joint_name: j3
+  model_name: H54-100-S500-R
+  name: H54
+  model_number: 00003
+  cpr: 501900
+  gear_reduction: 500.0
+  max_vel_value: 8500.0
+  max_vel_rads: 1.576036
+  min_rad: -3.13
+  max_rad: 3.13
+  
+- id: 7
+  joint_name: j4
+  model_name: H54-100-S500-R
+  name: H54
+  model_number: 00004
+  cpr: 501900
+  gear_reduction: 500.0
+  max_vel_value: 8500.0
+  max_vel_rads: 1.576036
+  min_rad: -1.95
+  max_rad: 1.95
+
+- id: 8
+  joint_name: j5
+  model_name: H54-100-S500-R
+  name: H54
+  model_number: 00005
+  cpr: 501900
+  gear_reduction: 500.0
+  max_vel_value: 8500.0
+  max_vel_rads: 1.576036
+  min_rad: -3.13
+  max_rad: 3.13
+
+- id: 9
+  joint_name: j6
+  model_name: L42
+  name: L42
+  model_number: 00006
+  cpr: 303750 
+  gear_reduction: 300.0
+  max_vel_value: 4500.0
+  max_vel_rads: 1.4997
+  min_rad: -1.57
+  max_rad: 1.57
+
+- id: 10
+  joint_name: j7
+  model_name: H42
+  name: H42
+  model_number: 00007
+  cpr: 303750
+  gear_reduction: 300.0
+  max_vel_value: 4500.0
+  max_vel_rads: 1.4997
+  min_rad: -3.13
+  max_rad: 3.13
+
+- id: 11
+  joint_name: jg2
+  model_name: L42
+  name: L42
+  model_number: 00048
+  cpr: 4096
+  gear_reduction: 300.0
+  max_vel_value: 400.0
+  max_vel_rads: 2.9994
+  min_rad: -1.57
+  max_rad: 0.0
+

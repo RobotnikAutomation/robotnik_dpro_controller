@@ -1,0 +1,22 @@
+servos: 
+
+- id: 11
+  joint_name: j1_head
+  model_name: L42
+  name: L42
+  model_number: 00047
+  cpr: 4096 
+  gear_reduction: 300.0
+  max_vel_value: 400.0
+  max_vel_rads: 2.98452
+
+- id: 12
+  joint_name: j2_head
+  model_name: L42
+  name: L42
+  model_number: 00048
+  cpr: 4096
+  gear_reduction: 300.0
+  max_vel_value: 400.0
+  max_vel_rads: 2.98452
+
