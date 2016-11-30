@@ -1,0 +1,58 @@
+servos: 
+
+# H54 revolute
+- id: 1 
+  joint_name: waist_joint
+  model_name: H54-200-S500-R
+  name: H54
+  model_number: 00001
+  cpr: 501900 
+  gear_reduction: 500.0
+  max_vel_value: 8300.0
+  max_vel_rads: 1.460844
+  min_rad: -1.57
+  max_rad: 1.57
+# optional params
+  vel_i_gain: 2
+  vel_p_gain: 600
+  pos_p_gain: 10
+# enables the PID reconfiguration when the servo is not moving
+  dynamic_pid: true
+  vel_i_gain_idle: 85
+  vel_p_gain_idle: 600
+  pos_p_gain_idle: 10
+
+
+# L42 model
+#- id: 2
+#  joint_name: j1_head
+#  model_name: L42
+#  name: L42
+#  model_number: 00047
+#  cpr: 4096 
+#  gear_reduction: 300.0
+#  max_vel_value: 400.0
+#  max_vel_rads: 2.98452
+#  joint_type: revolute
+#  min_rad: -1.5708
+#  max_rad: 1.5708
+
+# H54 prismatic
+#- id: 3
+#  joint_name: j1_torso
+#  model_name: H54-100-S500-R
+#  name: H54
+#  model_number: 00003
+#  cpr: 501900 
+#  gear_reduction: 500.0
+#  max_vel_value: 17000.0
+#  max_vel_rads: 2.921688
+#  joint_type: prismatic
+#  min_rad: 7.5
+#  max_rad: -10.0
+#  min_m: 0.0
+#  max_m: 0.3342
+# Set up/down limits with digital inputs to avoid movement
+#  lim_sw_pos: 2
+#  lim_sw_neg: 3
+
