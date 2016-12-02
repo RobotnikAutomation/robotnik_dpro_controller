@@ -136,7 +136,7 @@ struct dynamixel_status
 {
 	int id;
 	control_mode mode; 
-	bool torque_enabled;
+	bool torque_enabled; 
 };
 
 
