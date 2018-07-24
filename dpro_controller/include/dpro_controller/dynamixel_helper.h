@@ -72,7 +72,7 @@ struct DynamixelInfo
  */
 enum CONTROL_MODE
 {
-  POSITION_CONTROL = 4,
+  POSITION_CONTROL = 4,  // multiturn mode
   VELOCITY_CONTROL = 1,
   TORQUE_CONTROL = 0,
   UNKNOWN = -1
