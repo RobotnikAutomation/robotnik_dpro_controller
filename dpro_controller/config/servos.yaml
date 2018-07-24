@@ -1,0 +1,31 @@
+servos: 
+
+- id: 1
+  joint_name: torso_pantilt_tilt_joint
+  model_name: L42
+  name: L42
+  # model_number: 00047 # unused
+  cpr: 4096 
+  gear_reduction: 300.0
+  max_vel_value: 30.0
+  max_vel_rads: 0.35
+  encoder_resolution: 4096
+  angular_range: 6.2831
+  raw_speed_multiplier: 7.5
+  rest_position: 1.2
+  invert_direction: false
+
+- id: 2
+  joint_name: torso_pantilt_pan_joint
+  model_name: L42
+  name: L42
+  #model_number: 00048 # unused
+  cpr: 4096
+  gear_reduction: 300.0
+  max_vel_value: 30.0
+  max_vel_rads: 0.35
+  encoder_resolution: 4096
+  angular_range: 6.2831
+  raw_speed_multiplier: 7.5
+  rest_position: 0.0
+  invert_direction: false

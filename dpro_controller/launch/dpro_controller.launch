@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+
+   <!-- GDB functionality -->
+   <arg name="debug" default="false" />
+   <arg unless="$(arg debug)" name="launch_prefix" value="" />
+   <arg     if="$(arg debug)" name="launch_prefix" value="terminator -m -x gdb --args" /> <!-- local debug -->
+   <!-- arg     if="$(arg debug)" name="launch_prefix" value="screen -d -m gdb - -args" /--> <!-- ssh/screen debug -->
+
+   <node name="dpro_controller" pkg="dpro_controller" type="dpro_controller_main" respawn="false" output="screen" launch-prefix="$(arg launch_prefix)">
+      <param name="port" type="string" value="/dev/ttyUSB_DXL"/>
+      <param name="baudrate" value="57600" />
+      <rosparam command="load" file="$(find dpro_controller)/config/servos.yaml" />
+    </node>
+
+</launch>
+
+
